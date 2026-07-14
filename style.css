@@ -2237,6 +2237,21 @@ a:focus{
         font-size:29px;
     }
 }
+/* MOBILE SCROLL REVEAL FIX */
+
+@media (max-width: 768px){
+
+    section.hidden{
+        opacity:1 !important;
+        transform:none !important;
+    }
+
+    section.show{
+        opacity:1 !important;
+        transform:none !important;
+    }
+
+}
 /* ===========================
 END
 =========================== */

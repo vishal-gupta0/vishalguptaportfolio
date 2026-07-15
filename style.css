@@ -2312,13 +2312,9 @@ SCROLL REVEAL
 
 .hidden{
 
-    opacity:0;
+    opacity:1;
 
-    transform:translateY(50px);
-
-    transition:
-        opacity .8s ease,
-        transform .8s ease;
+    transform:translateY(0);
 
 }
 
